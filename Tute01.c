@@ -4,7 +4,19 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+ {
+   float mark1,mark2,total;
+
+  printf("Enter marks of the 1st subject: ");
+  scanf("%f",&mark1);
+
+  printf("Enter marks of the 2nd subject: ");
+  scanf("%f",&mark2);
+
+  total=mark1+mark2;
+
+  printf("Total marks: %.2f",total);
   
   return 0;
 }
